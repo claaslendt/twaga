@@ -14,44 +14,46 @@ The developed pipeline involves several key steps:
 
 ![Fig1](figures/pipeline.jpg)
 
-
-
+<br/>
 
 ## 💻 Code
 
 ⌛ **We are currently cleaning, documenting and testing a packaged Python module. Stay tuned for the code!**
 
-
+<br/>
 
 ## 📄 Papers
 
-⌛ **A preprint with more details and validation results will be published in August 2025.**
+Lendt, C., Grimmer, M., Froböse, I., & Stewart, T. (2025). Gait Analysis for Thigh-Worn Accelerometry A Data Processing Pipeline using Data-Driven Approaches. medRxiv. https://doi.org/10.1101/2025.11.18.25339671
 
-Some information regarding the gait event detection and activity type classification can already be found here:
+Lendt, C., Hansen, N., Froböse, I., & Stewart, T. (2024). Composite activity type and stride-specific energy expenditure estimation model for thigh-worn accelerometry. International Journal of Behavioral Nutrition and Physical Activity, 21(1), 99. https://doi.org/10.1186/s12966-024-01646-y
 
-Lendt, Claas and Stewart, Tom (2024) "Gait Event Detection During Walking Using Deep Learning and Thigh-Worn Accelerometry", *ISBS Proceedings Archive*: Vol. 42: Iss. 1, Article 165. Available at: https://commons.nmu.edu/isbs/vol42/iss1/165
+<br/>
 
-Lendt, C., Hansen, N., Froböse, I. et al. Composite activity type and stride-specific energy expenditure estimation model for thigh-worn accelerometry. *Int J Behav Nutr Phys Act* 21, 99 (2024). https://doi.org/10.1186/s12966-024-01646-y
+Some additional information regarding the gait event detection and activity type classification can be found here:
 
+Lendt, C., & Stewart, T. (2024). Gait Event Detection During Walking Using Deep Learning and Thigh-Worn Accelerometry, ISBS Proceedings Archive: Vol. 42: Iss. 1, Article 165. Available at: https://commons.nmu.edu/isbs/vol42/iss1/165
 
+<br/>
 
 ## 🔓 Open data
 
 This pipeline has been developed and validated using several open datasets:
 
-* HARTH and HAR70+ [[GitHub](https://github.com/ntnu-ai-lab/harth-ml-experiments)]
-* WearGait-PD [[Synapse](https://www.synapse.org/Synapse:syn52540892/wiki/623751)]
+* TWAGA [[Zenodo](https://doi.org/10.5281/zenodo.17629130)] - Thigh acceleration and GRF from force-sensing insoles.
+* HARTH and HAR70+ [[GitHub](https://github.com/ntnu-ai-lab/harth-ml-experiments)] - Thigh acceleration and activity labels from video annotations.
+* WearGait-PD [[Synapse](https://www.synapse.org/Synapse:syn52540892/wiki/623751)] - IMU data and GRF from force-sensing insoles.
+* Warmerdam [[Figshare](https://doi.org/10.6084/m9.figshare.20238006.v2)] - IMU and motion tracking data.
 
-The gait data collected as part of this work will be openly published very soon.
-
-
+<br/>
 
 ## 💸 Funding
 
 TWAGA is partially based upon the results of the research project 'Estimation of activity induced energy expenditure using thigh-worn accelerometry and machine learning approaches', funded by the Internal Research Funds of the German Sport University Cologne. Some of the underlying work has been done while being supported by a fellowship of the German Academic Exchange Service (DAAD).
 
-
+<br/>
 
 ## 🙌🏽 Acknowledgements
 
 We appreciate all research teams who made the extra effort to openly share their datasets as well as all participants in all underlying studies.
+
