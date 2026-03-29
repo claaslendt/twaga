@@ -18,7 +18,7 @@ The developed pipeline involves several key steps:
 
 ## 💻 Code
 
-⌛ **We are currently cleaning, documenting and testing a packaged Python module. Stay tuned for the code!**
+Functions to perform activity classification 🚶🏽‍➡️, walking speed estimation 🏃🏽‍➡️ and gait event detection 👣 can be found inside ```twaga.py```. Models for activity classification and gait event detection are inside the ```models``` folder. As of now, the functions for extracting gait-specific parameters (i.e. calculating bout-wise stride time, walking speed etc.) are not uploaded due to time constrains.
 
 <br/>
 
@@ -56,4 +56,5 @@ TWAGA is partially based upon the results of the research project 'Estimation of
 ## 🙌🏽 Acknowledgements
 
 We appreciate all research teams who made the extra effort to openly share their datasets as well as all participants in all underlying studies.
+
 
