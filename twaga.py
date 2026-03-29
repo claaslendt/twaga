@@ -215,7 +215,7 @@ def classify_act(df, model='Lendt_2024', str_label=True, filt_cycling=True):
             keras.layers.Dense(5, activation='softmax')
         ])
 
-        model.load_weights('models/CNN_BiLSTM_f1_weights.h5')
+        model.load_weights('models/CNN_BiLSTM_weights.h5')
     
     else:
         raise ValueError("Model not recognized. Only 'Lendt_2024' is supported at the moment.")
@@ -336,7 +336,7 @@ def detect_gait_events(df, model='Lendt_2025', prob_thresh=0.4, peak_dist=50, ec
 
     # load the trained TCN model
     if model == 'Lendt_2025':
-        tcn_model = load_model('models/TCN_32-7-16_wGrimmer_full.keras',
+        tcn_model = load_model('models/TCN.keras',
                                compile=False,
                                custom_objects={'TCN': TCN})
     else:
