@@ -371,4 +371,4 @@ def detect_gait_events(df, model='Lendt_2025', prob_thresh=0.4, peak_dist=50, ec
     gait_events.loc[ix_pred_IC, 'IC'] = 1
     gait_events.loc[ix_pred_FC, 'FC'] = 1
 
-    return gait_events
+    return gait_events['IC'], gait_events['FC']
